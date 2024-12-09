@@ -13,24 +13,24 @@ namespace Tyuiu.BabaiKV.Sprint6.Task1.V20
         {
             try
             {
-                int startStep = Convert.ToInt32(textBoxStartStep_SBI.Text);
-                int stopStep = Convert.ToInt32(textBoxStopStep_SBI.Text);
+                int startStep = Convert.ToInt32(textBoxStartStep_BKV.Text);
+                int stopStep = Convert.ToInt32(textBoxStopStep_BKV.Text);
                 string strLine;
                 int len = dataService.GetMassFunction(startStep, stopStep).Length;
 
                 double[] valueArray = dataService.GetMassFunction(startStep, stopStep);
 
-                textBoxResult_SBI.Text = "";
-                textBoxResult_SBI.AppendText("+----------+----------+" + Environment.NewLine);
-                textBoxResult_SBI.AppendText("|    X     |    f(x)  |" + Environment.NewLine);
-                textBoxResult_SBI.AppendText("+----------+----------+" + Environment.NewLine);
+                textBoxResult_BKV.Text = "";
+                textBoxResult_BKV.AppendText("+----------+----------+" + Environment.NewLine);
+                textBoxResult_BKV.AppendText("|    X     |    f(x)  |" + Environment.NewLine);
+                textBoxResult_BKV.AppendText("+----------+----------+" + Environment.NewLine);
                 for (int i = 0; i <= len - 1; i++)
                 {
                     strLine = String.Format("|{0,5:d}     | {1,6:f2}   |", startStep, valueArray[i]);
-                    textBoxResult_SBI.AppendText(strLine + Environment.NewLine);
+                    textBoxResult_BKV.AppendText(strLine + Environment.NewLine);
                     startStep++;
                 }
-                textBoxResult_SBI.AppendText("+----------+----------+" + Environment.NewLine);
+                textBoxResult_BKV.AppendText("+----------+----------+" + Environment.NewLine);
 
             }
             catch (Exception ex)
@@ -39,14 +39,14 @@ namespace Tyuiu.BabaiKV.Sprint6.Task1.V20
             }
 
         }
-        private void textBoxSteps_SBI_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBoxSteps_BKV_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar < '0' || e.KeyChar > '9') && (e.KeyChar != '.') && (e.KeyChar != 8) && (e.KeyChar != '-'))
             {
                 e.Handled = true;
             }
         }
-        private void buttonHelp_SBI_Click(object sender, EventArgs e)
+        private void buttonHelp_BKV_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 1 выполнила студентка группы СМАРТб-24-1 Бабай Ксения Витальевна", "Сообщение", MessageBoxButtons.OK);
         }
