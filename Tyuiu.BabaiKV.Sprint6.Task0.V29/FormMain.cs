@@ -12,21 +12,21 @@ namespace Tyuiu.BabaiKV.Sprint6.Task0.V29
             DataService dataService = new DataService();
             try
             {
-                textBoxResult_SBI.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_SBI.Text)));
+                textBoxResult_BKV.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_BKV.Text)));
             }
             catch
             {
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void textBoxVarX_SBI_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBoxVarX_BKV_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != '.') && (e.KeyChar != 8))
             {
                 e.Handled = true;
             }
         }
-        private void buttonQuestion_SBI_Click(object sender, EventArgs e)
+        private void buttonQuestion_BKV_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 0 выполнила студентка группы СМАРТб-24-1 Бабай Ксения Витальевна", "Сообщение", MessageBoxButtons.OK);
         }
