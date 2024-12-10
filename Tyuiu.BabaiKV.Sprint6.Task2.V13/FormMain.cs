@@ -58,5 +58,9 @@ namespace Tyuiu.BabaiKV.Sprint6.Task2.V13
             MessageBox.Show("Таск 2 выполнила студентка группы СМАРТб-24-1 Бабай Ксения Витальевна", "Сообщение", MessageBoxButtons.OK);
         }
 
+        private void buttonHelp_BKV_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

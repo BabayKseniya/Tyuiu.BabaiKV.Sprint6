@@ -109,6 +109,7 @@
             buttonHelp_BKV.TabIndex = 4;
             buttonHelp_BKV.Text = "Справка";
             buttonHelp_BKV.UseVisualStyleBackColor = false;
+            buttonHelp_BKV.Click += buttonHelp_BKV_Click_1;
             // 
             // textBoxEnd_BKV
             // 
