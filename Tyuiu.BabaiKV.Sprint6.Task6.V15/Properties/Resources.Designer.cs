@@ -93,9 +93,39 @@ namespace Tyuiu.BabaiKV.Sprint6.Task6.V15.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap date_add {
+            get {
+                object obj = ResourceManager.GetObject("date_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap folder_brick {
+            get {
+                object obj = ResourceManager.GetObject("folder_brick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap folder_png_image_5a21dba5271562_4467953615121683571601 {
             get {
                 object obj = ResourceManager.GetObject("folder-png-image-5a21dba5271562.4467953615121683571601", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap report_user {
+            get {
+                object obj = ResourceManager.GetObject("report_user", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

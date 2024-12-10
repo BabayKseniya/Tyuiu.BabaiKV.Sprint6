@@ -67,6 +67,7 @@
             // 
             buttonDone_BKV.BackColor = Color.YellowGreen;
             buttonDone_BKV.BackgroundImageLayout = ImageLayout.None;
+            buttonDone_BKV.Image = Properties.Resources.folder_brick;
             buttonDone_BKV.Location = new Point(96, 3);
             buttonDone_BKV.Name = "buttonDone_BKV";
             buttonDone_BKV.Size = new Size(68, 60);
@@ -76,7 +77,7 @@
             // 
             // buttonOpenFile_BKV
             // 
-            buttonOpenFile_BKV.Image = Properties.Resources._5386587415747094626;
+            buttonOpenFile_BKV.Image = (Image)resources.GetObject("buttonOpenFile_BKV.Image");
             buttonOpenFile_BKV.Location = new Point(10, 3);
             buttonOpenFile_BKV.Name = "buttonOpenFile_BKV";
             buttonOpenFile_BKV.Size = new Size(63, 60);
@@ -105,7 +106,7 @@
             // 
             // buttonHelp_BKV
             // 
-            buttonHelp_BKV.Image = (Image)resources.GetObject("buttonHelp_BKV.Image");
+            buttonHelp_BKV.Image = Properties.Resources.report_user;
             buttonHelp_BKV.Location = new Point(718, 3);
             buttonHelp_BKV.Name = "buttonHelp_BKV";
             buttonHelp_BKV.Size = new Size(70, 72);

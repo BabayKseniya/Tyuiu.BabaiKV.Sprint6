@@ -31,8 +31,8 @@ namespace Tyuiu.BabaiKV.Sprint6.Task6.V15
         {
             try
             {
-                string str = "";
-                textBoxOutPut_BKV.Text = ds.CollectTextFromFile(str, openFilePath);
+                
+                textBoxOutPut_BKV.Text = ds.CollectTextFromFile( openFilePath);
             }
             catch
             {

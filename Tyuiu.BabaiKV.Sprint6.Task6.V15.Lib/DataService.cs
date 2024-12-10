@@ -4,7 +4,7 @@ namespace Tyuiu.BabaiKV.Sprint6.Task6.V15.Lib
 {
     public class DataService : ISprint6Task6V15
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
             string result = "";
 

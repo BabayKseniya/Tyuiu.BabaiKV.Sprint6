@@ -117,55 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOpenFile_BKV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
   <data name="textBoxTask_BKV.Text" xml:space="preserve">
     <value>Дан файл InPutFileTask6V15.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести последнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonHelp_BKV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AAAAAAAAAAAAAAH/2Q==
-</value>
   </data>
   <metadata name="openFileDialog_BKV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
