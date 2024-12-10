@@ -74,11 +74,13 @@
             // 
             // buttonSave_BKV
             // 
+            buttonSave_BKV.Enabled = false;
             buttonSave_BKV.Image = Properties.Resources.accept;
             buttonSave_BKV.Location = new Point(236, 12);
             buttonSave_BKV.Name = "buttonSave_BKV";
             buttonSave_BKV.Size = new Size(96, 73);
             buttonSave_BKV.TabIndex = 5;
+            toolTipButton.SetToolTip(buttonSave_BKV, "Сохранить  файл");
             buttonSave_BKV.UseVisualStyleBackColor = true;
             buttonSave_BKV.Click += buttonSave_BKV_Click;
             // 
@@ -89,16 +91,19 @@
             buttonHelp_KVB.Name = "buttonHelp_KVB";
             buttonHelp_KVB.Size = new Size(92, 75);
             buttonHelp_KVB.TabIndex = 4;
+            toolTipButton.SetToolTip(buttonHelp_KVB, "Информация о создателе");
             buttonHelp_KVB.UseVisualStyleBackColor = true;
             buttonHelp_KVB.Click += buttonHelp_KVB_Click;
             // 
             // buttonResult_BKV
             // 
+            buttonResult_BKV.Enabled = false;
             buttonResult_BKV.Image = Properties.Resources.page_white_put;
             buttonResult_BKV.Location = new Point(128, 12);
             buttonResult_BKV.Name = "buttonResult_BKV";
             buttonResult_BKV.Size = new Size(90, 74);
             buttonResult_BKV.TabIndex = 3;
+            toolTipButton.SetToolTip(buttonResult_BKV, "Совершить действие найд файлом\r\n");
             buttonResult_BKV.UseVisualStyleBackColor = true;
             buttonResult_BKV.Click += buttonResult_BKV_Click;
             // 
@@ -109,6 +114,7 @@
             buttonOpenFile_BKV.Name = "buttonOpenFile_BKV";
             buttonOpenFile_BKV.Size = new Size(94, 74);
             buttonOpenFile_BKV.TabIndex = 2;
+            toolTipButton.SetToolTip(buttonOpenFile_BKV, "Вставьте необходимый файл\r\n");
             buttonOpenFile_BKV.UseVisualStyleBackColor = true;
             buttonOpenFile_BKV.Click += buttonOpenFile_BKV_Click;
             buttonOpenFile_BKV.MouseEnter += buttonOpenFile_BKV_Click;
